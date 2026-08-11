@@ -39,7 +39,7 @@ Our test benchmarks on a live MongoDB Atlas database demonstrate extreme perform
 
 Install the library locally in editable mode:
 ```bash
-pip install -e .
+pip install git+https://github.com/MightyAyush/PyMongoLMDB.git
 ```
 
 Place your MongoDB credentials in a `.env` file in the root of your project:
